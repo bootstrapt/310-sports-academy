@@ -11,8 +11,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-#remote_theme: bootstrapt/agency-jekyll-theme
-local_theme: 310-sports-academy-theme
+remote_theme: bootstrapt/agency-jekyll-theme
+#local_theme: 310-sports-academy-theme
 
 url    : "https://bootstrapt.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/310-sports-academy" # the subpath of your site, e.g. /blog
@@ -42,4 +42,4 @@ markdown: kramdown
 
 plugins:
   - jekyll-remote-theme
-  - jekyll-local-theme
+  #- jekyll-local-theme
