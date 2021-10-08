@@ -11,19 +11,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-#theme: jekyll-agency
-remote_theme: raviriley/agency-jekyll-theme
+#remote_theme: bootstrapt/agency-jekyll-theme
+local_theme: 310-sports-academy-theme
 
 url    : "https://bootstrapt.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/310-sports-academy" # the subpath of your site, e.g. /blog
 
 title      : 310 Sports Academy
 email      : your-email@example.com #this is also the email contact forms will go to
-description: ""
+description: "A whole athlete approach"
 author     : Nick Turner
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+logo       :     #optional, defaults to site title
+  path: assets/img/logo.png
+  height: 66 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
@@ -32,6 +32,7 @@ analytics:
 
 collections:
   portfolio:
+    title: Programs
 
 markdown: kramdown
 
@@ -41,3 +42,4 @@ markdown: kramdown
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-local-theme

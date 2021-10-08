@@ -16,26 +16,31 @@ en: &DEFAULT_EN
     button: Tell Me More
     buttonlink: "#services"
 
+  portfolio:
+    title: "Programs"
+    section: programs # must match _themes/310-sports-academy-theme/_sass/layout/_portfolio.scss
+    closebutton: "Close"
+
   services:
-    title: "Services"
+    title: "Opportunities for all levels"
     text: "Lorem ipsum"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Skills Clinics"
+        desc: ""
+        icon: fas fa-volleyball-ball #find more at https://fontawesome.com/icons
+      - title: "Team Sports"
+        desc: ""
+        icon: fas fa-users
+      - title: "Conditioning"
+        desc: ""
+        icon: fas fa-dumbbell
 
-  portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"
+  about:
+    title: "About Us"
+    text: "our story"
+    body: "At 310 Sports Academy, our mission is to offer whole athlete, high level sport opportunities to all athletes, regardless of their economic background. Whether you are looking for growth opportunities through clinics, competitive & non-competitive team play, or assistance to get you playing at the next level, 310 Sports Academy is here to help you achieve your goals.<br /><br />We believe we can bring out the best in athletes through a whole athlete approach. We focus on helping athletes reach their goals through traditional skills work, as well as nutrition, general/mental health & sports psychology. with the help of our partners, we know we can change the game, one athlete at a time."
+    section: about
 
   timeline:
     title: "Timeline"
@@ -67,12 +72,6 @@ en: &DEFAULT_EN
         # you can enforce the alignment
         align: right
     end: "Be Part <br> of Our <br> Story!"
-
-  about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
 
   clients:
     section: clients
